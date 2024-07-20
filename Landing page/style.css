@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.cta-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('creative3.jpg') no-repeat center center/cover;
+    
+    color: rgb(28, 221, 170);
+    text-align: center;
+  
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-buttons button {
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+.features .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 16px;
+}
+
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+    color: rgb(181, 65, 11);
+    
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.services .service {
+    text-align: center;
+    width: 30%;
+}
+
+.services .service img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.services .service h3 {
+    font-size: 24px;
+}
